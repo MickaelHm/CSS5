@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Exercice 5</title>
+    <!--la balise style qui suit sert pour la mise en page avec les bordures du tableau. La mention collapse sert a fondre les lignes de chaque encadré pour un tableau propre-->
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table summary="tableau">
+        <caption>Mon compte BNP</caption>
+        <thead><!-- en-tête -->
+            <tr>
+                <!-- première ligne -->
+                <th>Date</th>
+                <th>Libellé</th>
+                <th>Crédit</th>
+                <th>Débit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- seconde ligne du tableau et première du tbody-->
+                <td>01/05/2016</td> <!-- première case-->
+                <td>Paye</td>
+                <td>1500</td>
+                <td>0
+            </tr>
+            <tr>
+                <td>01/05/2016</td>
+                <td>Courses de la semaine</td>
+                <td>0</td>
+                <td>152,30</td>
+            </tr>
+            <tr>
+                <td>04/05/2016</td>
+                <td>Mc do</td>
+                <td>0</td>
+                <td>32,40</td>
+            </tr>
+            <tr>
+                <td>05/05/2016</td>
+                <td>Loyer</td>
+                <td>0</td>
+                <td>700</td>
+            </tr>
+            <tr>
+                <td>05/05/2016</td>
+                <td>Internet</td>
+                <td>0</td>
+                <td>39,90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><center>Solde</center></td>
+                <td colspan="2"><center>575,40</center></td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
